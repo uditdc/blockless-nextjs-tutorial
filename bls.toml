@@ -1,0 +1,20 @@
+name = "with-static-export-app"
+version = "1.0.0"
+type = "site"
+content_type = "html"
+
+[deployment]
+permission = "private"
+nodes = 4
+
+[build]
+dir = ".bls"
+public_dir = "out"
+entry = "with-static-export-app_debug.wasm"
+command = ""
+
+[build_release]
+dir = ".bls"
+public_dir = "out"
+entry = "with-static-export-app.wasm"
+command = ""
