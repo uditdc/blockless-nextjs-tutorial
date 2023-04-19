@@ -1,4 +1,4 @@
-name = "with-static-export-app"
+name = "blockless-nextjs-tutorial"
 version = "1.0.0"
 type = "site"
 content_type = "html"
@@ -10,11 +10,11 @@ nodes = 4
 [build]
 dir = ".bls"
 public_dir = "out"
-entry = "with-static-export-app_debug.wasm"
+entry = "blockless-nextjs-tutorial_debug.wasm"
 command = ""
 
 [build_release]
 dir = ".bls"
 public_dir = "out"
-entry = "with-static-export-app.wasm"
+entry = "blockless-nextjs-tutorial.wasm"
 command = ""
